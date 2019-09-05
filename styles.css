@@ -1,14 +1,15 @@
 body{
-  background: #A9CCE3;
+  background: #7FB3D5;
   letter-spacing: 0.2em;
+  font-family: 'Satisfy', cursive;
   font-size: 0.8em;
 }
 .container{
   max-width: 400px;
 }
-/* .card{
-  max-height: 400px;
-} */
+.card{
+  background-color: #D4E6F1;
+}
 .icon{
   position: relative;
   top: -50px;
