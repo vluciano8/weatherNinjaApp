@@ -24,6 +24,7 @@ const updateUI = (data) => {
   
   let timeSrc = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg';
   time.setAttribute('src', timeSrc);
+  
 
   // remove the d-none class if present
   if(card.classList.contains('d-none')){
@@ -51,7 +52,18 @@ cityForm.addEventListener('submit', e => {
   updateCity(city)
     .then(data => updateUI(data))
     .catch(err => console.log(err));
+
+    // set local storage
+  localStorage.setItem('city', city);
+
 });
+
+// persist data when user comes back to the app
+if (localStorage.getItem('city')){
+  updateCity(localStorage.getItem('city'))
+    .then(data => updateUI(data))
+    .catch(err => console.log(err));
+}
 
 
 
