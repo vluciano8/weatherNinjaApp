@@ -1,4 +1,4 @@
-# weatherNinjaApp ⚡ ☔ 🌙 🌤 🌞 🌎 🆓
+# weatherNinjaApp 🌡⚡ ☔ 🌙 🌤 🌞 🌎 🆓
 
 <br>
 Simple Weather App following Modern Javascript tutorial by Shaun Pelling (on Udemy)
