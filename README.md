@@ -3,8 +3,17 @@
 <br>
 Simple Weather App following Modern Javascript tutorial by Shaun Pelling (on Udemy)
 
-Only using: Vanilla Javascript, CSS, Bootstrap v4 and FontAwesome, Google fonts and Accuweather API. No jQuery used.
-
+Tech Used:  
+<br>
+<ul>
+  <li>Vanilla Javascript (No jQuery used),</li>
+  <li>CSS,</li>
+  <li>Bootstrap v4,</li>
+  <li>FontAwesome,</li>
+  <li>Google fonts</li>
+  <li>Accuweather API</li>
+</ul>
+<br>
 ## Mains
 <br>
 <ul>
